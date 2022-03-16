@@ -1,0 +1,6 @@
+Hello! I´m Ruth. Front-End Developer
+
+I am a self-taught developer based in Spain. 
+Since I was a little girl I have always been related to art in many different ways, but later on I discovered the "magic" of painting
+with code and realized my love for Front-End development.
+I am a desing enthusiast and enjoy bringing ideas to life in the browser.
