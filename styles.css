@@ -1,3 +1,5 @@
+
+/*General styles*/
 :root{
     --primary-color: #61d0ec;
     --secondary-color: #49fb35;
@@ -38,6 +40,33 @@ a {
     text-decoration: none;
 }
 
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px var(--shadow-color);
+    background: #4DC7EB;
+    font-weight: 700;
+    padding: 15px 30px 15px 30px;
+    outline: none;
+    border: 2px solid var(--secondary-color);
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    padding: 15px 45px 15px 45px;
+}
+
+.btn span{
+    padding-left: 10px;
+}
+/*End of general styles*/
+
+/*Button Top*/
 #btn-top{
     font-size: 60px;
     color: var(--secondary-color);
@@ -90,60 +119,9 @@ a {
         font-size: 3vw;
     } 
 }
+/*End of button Top*/
 
-.title {
-    font-family: barcade-regular;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-top: 0;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: var(--text-color);
-    text-shadow: 3px 3px 3px var(--shadow-color);
-}
-
-.subtitle{
-    font-size: 35px;
-    font-weight: 25;
-    text-transform: uppercase;
-    font-family: var(--default-text);
-    color: var(--text-color);
-    text-shadow: 3px 3px 3px var(--shadow-color);
-    flex-flow: row;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 500;
-}
-
-.btn{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: white;
-    text-shadow: 1px 1px 1px var(--shadow-color);
-    background: #4DC7EB;
-    font-weight: 700;
-    padding: 15px 30px 15px 30px;
-    outline: none;
-    border: 2px solid var(--secondary-color);
-    cursor: pointer;
-    position: relative;
-    top: 20px;
-    transition: all 0.3s;
-}
-
-.btn:hover{
-    padding: 15px 45px 15px 45px;
-}
-
-.btn span{
-    padding-left: 10px;
-}
-
+/*Navbar*/
 .main-menu{
     display: flex;
     justify-content: space-between;
@@ -180,6 +158,36 @@ a {
 
 .menu-bar .menu-links ul li a:hover{
     color: var(--secondary-color);
+}
+/*End of navbar*/
+
+/*Section Hello*/
+.title {
+    font-family: barcade-regular;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--text-color);
+    text-shadow: 3px 3px 3px var(--shadow-color);
+}
+
+.subtitle{
+    font-size: 35px;
+    font-weight: 25;
+    text-transform: uppercase;
+    font-family: var(--default-text);
+    color: var(--text-color);
+    text-shadow: 3px 3px 3px var(--shadow-color);
+    flex-flow: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 500;
 }
 
 .section-hello {
@@ -243,7 +251,9 @@ a {
         font-size: 0.8rem;
     }
 }
+/*End of section Hello*/
 
+/*Games section*/
 .projects{
     height: 100vh;
     padding-right: 100px;
@@ -340,7 +350,9 @@ a {
     align-items: left;
     z-index: 500;
 }
+/*End of games section*/
 
+/*Transition image*/
 .space {
     height: 100vh;
     background-position: center;
@@ -349,7 +361,9 @@ a {
     background-size: cover;
     background-attachment: fixed;
 }
+/*End of transition image*/
 
+/*About section*/
 .about {
     height: 100vh;
     padding: 0px 50px 0 50px;
@@ -486,7 +500,9 @@ a {
     width: 10%;
     height: 3vw;
 }
+/*End of about section*/
 
+/*Contact section*/
 .ocean {
     height: 100vh;
     background-position: center;
@@ -518,7 +534,9 @@ footer{
     align-items: center;
     margin-top: -500px;
 }
+/*End of contact section*/
 
+/*Footer*/
 .social-method{
     width: 200px;
     height: 300px;
@@ -575,5 +593,6 @@ footer{
         width: 50%;
     }
 }
+/*End of footer*/
 
 
