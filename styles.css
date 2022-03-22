@@ -186,7 +186,7 @@ a {
 
 .section-hello {
     height: 100vh;
-    background-image: url(./fondo\ 1\ portfolio\ prueba\ 3.png);
+    background-image: url(./img/fondo\ 1\ portfolio\ prueba\ 3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -226,7 +226,7 @@ a {
     height: 100vh;
     padding-right: 100px;
     padding-left: 100px;
-    background-image: url(./projects\ background.png);
+    background-image: url(./img/projects\ background.png);
     background-repeat: no-repeat;
     background-size: cover; 
     padding-top: 30px;
@@ -324,7 +324,7 @@ a {
 .space {
     height: 100vh;
     background-position: center;
-    background-image: url(./fondo\ 2\ portfolio\ revisada\ 2.png);
+    background-image: url(./img/fondo\ 2\ portfolio\ revisada\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -335,7 +335,7 @@ a {
 .about {
     height: 100vh;
     padding: 0px 50px 0 50px;
-    background-image: url(./fondo\ about.png);
+    background-image: url(./img/fondo\ about.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 30px;
@@ -365,7 +365,7 @@ a {
 .ocean {
     height: 100vh;
     background-position: center;
-    background-image: url(./fondo\ 3\ portfolio.png);
+    background-image: url(./img/fondo\ 3\ portfolio.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
