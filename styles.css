@@ -380,14 +380,16 @@ a {
 
 .col-title{
     background-color: white;
+    border: 10px double var(--secondary-color);
 }
 
 .about-content-text{
-
+    
 }
 
 .col-text{
     background-color: white;
+    border: 10px double var(--secondary-color);
 }
 /*End of about section*/
 
